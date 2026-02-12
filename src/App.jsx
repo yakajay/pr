@@ -15,13 +15,13 @@ const App = () => {
   }, []);
 
   return (
-    <div className='min-h-screen bg-white'>
-      <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-transparent'
+    <div class='min-h-screen bg-white'>
+      <nav class={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-transparent'
         }`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center">
-              <img src={logoPath} alt='logo' className='h-40 w-auto'/>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center py-4">
+            <div class="flex items-center">
+              <img src={logoPath} alt='logo' class='h-40 w-auto'/>
             </div>
           </div>
         </div>
